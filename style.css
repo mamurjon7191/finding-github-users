@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.big {
+  flex-direction: column;
+}
+.btn {
+  text-decoration: none;
+  font-size: 2rem;
+}
+.searchBox {
+  background-color: white;
+  border: 1px solid rgba(137, 43, 226, 0.368);
+  width: 80%;
+  margin-top: 6rem;
+  font-size: 2rem;
+  padding: 3rem;
+  line-height: 5rem;
+  margin-bottom: 3rem;
+}
+.searchBox p {
+  font-size: 3rem;
+}
+.searchBox input {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  font-size: 2rem;
+  border: 1px solid rgba(137, 43, 226, 0.58);
+}
+.searchBox input::placeholder {
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+.answer--left img {
+  width: 80%;
+  border-radius: 50%;
+}
+.answer--left {
+  flex-direction: column;
+}
+.answer {
+  padding: 3rem;
+  border: 1px solid rgba(137, 43, 226, 0.368);
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.btn {
+  width: 80%;
+  height: 40px;
+  border: none;
+  color: white;
+  background-color: blueviolet;
+  margin-top: 3rem;
+}
+.answer--right--top {
+  justify-content: left;
+  gap: 1rem;
+}
+.box1 {
+  color: white;
+  font-size: 1.6rem;
+  padding: 0.3rem 1rem;
+}
+.answer--right--bottom {
+  margin-top: 2rem;
+}
+.box2 {
+  font-size: 2rem;
+  padding: 1rem 1rem;
+  border: 0.5px solid rgba(137, 43, 226, 0.439);
+}
+.repoTitle {
+  width: 80%;
+  text-align: left;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+}
+.latestRepos {
+  margin-top: 2rem;
+  padding: 2rem;
+  border: 0.5px solid rgba(137, 43, 226, 0.439);
+  justify-content: space-between;
+  width: 80%;
+}
+.repoName {
+  font-size: 2rem;
+  color: blueviolet;
+}
+.repositories {
+  flex-direction: column;
+  width: 80%;
+}
